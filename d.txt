@@ -1,0 +1,17 @@
+# include <stdio.h>
+int main( )
+{
+    struct book
+    {
+        char name;
+        float price ;
+        int pages ;
+    } ;
+    struct book b;
+    int i ; 
+    b.name='a';
+	b.price=12.50;
+	b.pages=230;
+    printf ( "%c %f %d\n", b.name, b.price, b.pages ) ;
+    return 0 ;
+}
